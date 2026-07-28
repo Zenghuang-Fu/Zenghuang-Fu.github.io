@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student at the <a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences</a>.
+subtitle: MSc student at the <a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences</a>, advised by Weiliang Meng and Xiaopeng Zhang.
 
 profile:
   align: right
@@ -28,10 +28,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student at the [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/) (CASIA).
+I am a master's student at the [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/) (CASIA), advised by Prof. Weiliang Meng and Prof. Xiaopeng Zhang.
 
 My research centres on **multimodal large models** and **agentic reinforcement learning** — in particular how agents can plan, remember and improve over long horizons. I also work on **video understanding** and **reasoning in multimodal LLMs**, and I have a background in visual perception: object detection and multi-object tracking under difficult real-world conditions.
 
 Recent work includes [DMTrack](https://arxiv.org/abs/2510.17860), a deformable state-space tracker for UAV multi-object tracking, and HiPA-DETR, a weather-aware detector that generalises across construction-site domains. I have also contributed to work published at AAAI 2026, ACL 2026, _Information Fusion_, _Expert Systems with Applications_ and _The Visual Computer_. A full list is on my [publications](/publications/) page.
 
 I maintain [Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL](https://github.com/Zenghuang-Fu/Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL), a reading list on long-horizon credit assignment for agentic RL.
+
+**I am actively looking for PhD positions.** If my interests line up with your group's, I would be glad to hear from you — please feel free to reach out by email.

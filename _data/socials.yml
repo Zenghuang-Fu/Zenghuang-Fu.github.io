@@ -2,8 +2,7 @@
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/rendercv/rendercv_output/Zenghuang_Fu_CV.pdf # path to your CV PDF file
-# TODO: fill in your institutional email address (Google Scholar lists it as verified at ia.ac.cn)
-# email: your_name@ia.ac.cn
+email: fuzenghuang24@ia.ac.cn # your email address
 github_username: Zenghuang-Fu # your GitHub username
 scholar_userid: eykCiM8AAAAJ # your Google Scholar ID
 rss_icon: true # comment this line to hide the RSS icon

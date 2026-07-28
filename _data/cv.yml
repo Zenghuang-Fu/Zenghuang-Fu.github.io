@@ -1,9 +1,8 @@
 cv:
   name: Zenghuang Fu
-  headline: PhD Student, Institute of Automation, Chinese Academy of Sciences
+  headline: MSc Student, Institute of Automation, Chinese Academy of Sciences
   location: Beijing, China
-  # TODO: add your email once you decide whether to publish it, e.g.
-  # email: your_name@ia.ac.cn
+  email: fuzenghuang24@ia.ac.cn
   social_networks:
     - network: GitHub
       username: Zenghuang-Fu
@@ -15,13 +14,16 @@ cv:
     # deliberately avoid the special-cased ones and fall through to the generic
     # renderer, which understands `bullet` and `label`/`details`.
     Summary:
-      - bullet: PhD student at the Institute of Automation, Chinese Academy of Sciences. My research centres on multimodal large models and agentic reinforcement learning, with a focus on long-horizon planning and memory; I also work on video understanding, MLLM reasoning, object detection and multi-object tracking.
+      - bullet: Master's student at the Institute of Automation, Chinese Academy of Sciences, advised by Weiliang Meng and Xiaopeng Zhang. My research centres on multimodal large models and agentic reinforcement learning, with a focus on long-horizon planning and memory; I also work on video understanding, MLLM reasoning, object detection and multi-object tracking. I am actively looking for PhD positions.
     Education:
-      # TODO: fill in your degree programme (area) and start/end dates.
+      # TODO: confirm the degree programme (area) and add start/end dates.
+      # Until start_date is set, the /cv/ page shows an empty date badge.
       - institution: Institute of Automation, Chinese Academy of Sciences
         area: Pattern Recognition and Intelligent Systems
-        degree: PhD
+        degree: MSc
         location: Beijing, China
+        highlights:
+          - Advised by Weiliang Meng and Xiaopeng Zhang.
     Publications:
       - title: "Robust detection in complex construction sites: HiPA-DETR with weather-aware and cross-domain generalization"
         authors:
