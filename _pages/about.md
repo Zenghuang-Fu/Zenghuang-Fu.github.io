@@ -6,9 +6,8 @@ subtitle: MSc student at the <a href="http://english.ia.cas.cn/">Institute of Au
 
 profile:
   align: right
-  # TODO: drop your photo at assets/img/prof_pic.jpg and uncomment the next two lines
-  # image: prof_pic.jpg
-  # image_circular: false # crops the image to make it circular
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Institute of Automation</p>
     <p>Chinese Academy of Sciences</p>
