@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MSc student at the <a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences</a>, advised by Weiliang Meng and Xiaopeng Zhang.
+subtitle: MSc student at the <a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences</a>, advised by <a href="https://people.ucas.ac.cn/~mengweiliang">Weiliang Meng</a> and <a href="https://scholar.google.com/citations?user=SMkmw3MAAAAJ&amp;hl=en">Xiaopeng Zhang</a>.
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a master's student at the [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/) (CASIA), advised by Prof. Weiliang Meng and Prof. Xiaopeng Zhang.
+I am a master's student at the [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/) (CASIA), advised by [Prof. Weiliang Meng](https://people.ucas.ac.cn/~mengweiliang) and [Prof. Xiaopeng Zhang](https://scholar.google.com/citations?user=SMkmw3MAAAAJ&hl=en).
 
 My research centres on **multimodal large models** and **agentic reinforcement learning** — in particular how agents can plan, remember and improve over long horizons. I also work on **video understanding** and **reasoning in multimodal LLMs**, and I have a background in visual perception: object detection and multi-object tracking under difficult real-world conditions.
 

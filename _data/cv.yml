@@ -26,7 +26,7 @@ cv:
         start_date: "2024-09"
         end_date: "2027-06"
         highlights:
-          - Advised by Weiliang Meng and Xiaopeng Zhang.
+          - Advised by [Weiliang Meng](https://people.ucas.ac.cn/~mengweiliang) and [Xiaopeng Zhang](https://scholar.google.com/citations?user=SMkmw3MAAAAJ&hl=en).
     Publications:
       - title: "Robust detection in complex construction sites: HiPA-DETR with weather-aware and cross-domain generalization"
         authors:
