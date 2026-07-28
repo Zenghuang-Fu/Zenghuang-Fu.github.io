@@ -8,8 +8,14 @@ cv:
     - network: GitHub
       username: Zenghuang-Fu
   sections:
+    # NOTE on section titles: al_folio_cv routes some titles to templates written
+    # for JSON Resume field names (Skills -> name/keywords, Languages -> name/
+    # fluency, Interests -> name/keywords). RenderCV only accepts label/details,
+    # so those titles would render empty on the /cv/ page. The titles below
+    # deliberately avoid the special-cased ones and fall through to the generic
+    # renderer, which understands `bullet` and `label`/`details`.
     Summary:
-      - PhD student at the Institute of Automation, Chinese Academy of Sciences. My research centres on multimodal large models and agentic reinforcement learning, with a focus on long-horizon planning and memory; I also work on video understanding, MLLM reasoning, object detection and multi-object tracking.
+      - bullet: PhD student at the Institute of Automation, Chinese Academy of Sciences. My research centres on multimodal large models and agentic reinforcement learning, with a focus on long-horizon planning and memory; I also work on video understanding, MLLM reasoning, object detection and multi-object tracking.
     Education:
       # TODO: fill in your degree programme (area) and start/end dates.
       - institution: Institute of Automation, Chinese Academy of Sciences
@@ -113,7 +119,7 @@ cv:
           - Shibiao Xu
         journal: Information Fusion
         date: "2025-08"
-    Open Source:
+    Projects:
       - name: Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL
         summary: A curated reading list of papers, methods and resources on long-horizon credit assignment for agentic RL.
         highlights:
@@ -129,10 +135,10 @@ cv:
         details: "Agentic reinforcement learning, long-horizon credit assignment, memory and planning"
       - label: Perception
         details: "Video understanding, object detection, multi-object tracking"
-    Skills:
+    Technical Skills:
       - label: Programming
         details: "Python, PyTorch, C++"
-    Languages:
+    Language Skills:
       - label: Chinese
         details: Native speaker
       - label: English
