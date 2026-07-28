@@ -16,12 +16,15 @@ cv:
     Summary:
       - bullet: Master's student at the Institute of Automation, Chinese Academy of Sciences, advised by Weiliang Meng and Xiaopeng Zhang. My research centres on multimodal large models and agentic reinforcement learning, with a focus on long-horizon planning and memory; I also work on video understanding, MLLM reasoning, object detection and multi-object tracking. I am actively looking for PhD positions.
     Education:
-      # TODO: confirm the degree programme (area) and add start/end dates.
-      # Until start_date is set, the /cv/ page shows an empty date badge.
+      # TODO: confirm the degree programme name (area).
+      # Months are the standard Chinese academic calendar (Sept intake, June
+      # graduation) -- a bare "2024" would render as "Jan 2024" in the PDF.
       - institution: Institute of Automation, Chinese Academy of Sciences
         area: Pattern Recognition and Intelligent Systems
         degree: MSc
         location: Beijing, China
+        start_date: "2024-09"
+        end_date: "2027-06"
         highlights:
           - Advised by Weiliang Meng and Xiaopeng Zhang.
     Publications:
