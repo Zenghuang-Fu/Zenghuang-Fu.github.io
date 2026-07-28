@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Zenghuang-Fu
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Zenghuang-Fu/Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL
+  - Zenghuang-Fu/DMTrack
+  - Zenghuang-Fu/Robust-Detection-in-Complex-Construction-Sites
+  - Zenghuang-Fu/sitting-posture-recognition

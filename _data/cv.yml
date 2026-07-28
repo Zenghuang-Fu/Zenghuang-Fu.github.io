@@ -1,54 +1,139 @@
 cv:
   name: Zenghuang Fu
-  headline: PhD Student
-  email: your_email@example.com
-  location: China
+  headline: PhD Student, Institute of Automation, Chinese Academy of Sciences
+  location: Beijing, China
+  # TODO: add your email once you decide whether to publish it, e.g.
+  # email: your_name@ia.ac.cn
   social_networks:
     - network: GitHub
       username: Zenghuang-Fu
   sections:
     Summary:
-      - PhD student working on machine learning, with research interests in self-play and skill evolution for self-evolving agents.
+      - PhD student at the Institute of Automation, Chinese Academy of Sciences. My research centres on multimodal large models and agentic reinforcement learning, with a focus on long-horizon planning and memory; I also work on video understanding, MLLM reasoning, object detection and multi-object tracking.
     Education:
-      - institution: Your University
-        area: Computer Science
+      # TODO: fill in your degree programme (area) and start/end dates.
+      - institution: Institute of Automation, Chinese Academy of Sciences
+        area: Pattern Recognition and Intelligent Systems
         degree: PhD
-        location: Your City, Country
-        start_date: "2024-09"
-        end_date: present
-        highlights:
-          - Research on self-play and skill evolution.
-      - institution: Your Undergraduate University
-        area: Computer Science
-        degree: BSc
-        location: Your City, Country
-        start_date: "2020-09"
-        end_date: "2024-06"
-    Experience:
-      - company: Your Lab / Group
-        position: Research Assistant
-        location: Your City, Country
-        start_date: "2023-09"
-        end_date: present
-        highlights:
-          - Describe what you worked on here.
+        location: Beijing, China
     Publications:
-      - title: Your paper title here
+      - title: "Robust detection in complex construction sites: HiPA-DETR with weather-aware and cross-domain generalization"
         authors:
           - Zenghuang Fu
-        journal: Venue / arXiv
-        date: "2025"
-        summary: One-line summary of the paper.
+          - Jinming Yang
+          - Xiaofeng Han
+          - Zhe Feng
+          - Muyang Zhang
+          - Changwei Wang
+          - Weiliang Meng
+          - Jiguang Zhang
+          - Xiaopeng Zhang
+        journal: The Visual Computer
+        date: "2026-05"
+      - title: "Cognitive Scaffold: From Fluid Context to Crystallized Memory for Long-Horizon DeepResearch Agents"
+        authors:
+          - Qiuyuan Ai
+          - Zenghuang Fu
+          - Zhaoyang Li
+          - Ping Jiang
+          - Haoyu Wu
+          - Jie Song
+          - Guannan He
+        journal: ACL (Main)
+        date: "2026-07"
+      - title: "WM-DETR: Dual-Branch Wavelet-Mamba and Sparse Attention for Robust Underwater Object Detection"
+        authors:
+          - Xiaofeng Han
+          - Shunpeng Chen
+          - Zenghuang Fu
+          - Longzhao Huang
+          - Shengpeng Xu
+          - Jinming Yang
+          - Yixian Kong
+          - Changwei Wang
+          - Weiliang Meng
+          - Xiaopeng Zhang
+        journal: Expert Systems with Applications
+        date: "2026-06"
+      - title: Explicit temporal-semantic modeling for dense video captioning via context-aware cross-modal interaction
+        authors:
+          - Mingda Jia
+          - Weiliang Meng
+          - Zenghuang Fu
+          - Yiheng Li
+          - Qi Zeng
+          - Yifan Zhang
+          - Ju Xin
+          - Rongtao Xu
+          - Jiguang Zhang
+          - Xiaopeng Zhang
+        journal: AAAI
+        date: "2026-03"
+      - title: "HMR-1: Hierarchical Massage Robot with Vision-Language-Model for Embodied Healthcare"
+        authors:
+          - Rongtao Xu
+          - Mingming Yu
+          - Xiaofeng Han
+          - Yu Zhang
+          - Kaiyi Hu
+          - Zhe Feng
+          - Zenghuang Fu
+          - Changwei Wang
+          - Weiliang Meng
+          - Xiaopeng Zhang
+        journal: arXiv preprint arXiv:2603.08817
+        date: "2026-03"
+        url: https://arxiv.org/abs/2603.08817
+      - title: "DMTrack: Deformable State-Space Modeling for UAV Multi-Object Tracking with Kalman Fusion and Uncertainty-Aware Association"
+        authors:
+          - Zenghuang Fu
+          - Xiaofeng Han
+          - Mingda Jia
+          - Qi Zeng
+          - Muyang Zhang
+          - Changwei Wang
+          - Weiliang Meng
+          - Xiaopeng Zhang
+        journal: arXiv preprint arXiv:2510.17860
+        date: "2025-10"
+        url: https://arxiv.org/abs/2510.17860
+      - title: "Multimodal fusion and vision-language models: A survey for robot vision"
+        authors:
+          - Xiaofeng Han
+          - Shunpeng Chen
+          - Zenghuang Fu
+          - Zhe Feng
+          - Lue Fan
+          - Dong An
+          - Changwei Wang
+          - Li Guo
+          - Weiliang Meng
+          - Xiaopeng Zhang
+          - Rongtao Xu
+          - Shibiao Xu
+        journal: Information Fusion
+        date: "2025-08"
+    Open Source:
+      - name: Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL
+        summary: A curated reading list of papers, methods and resources on long-horizon credit assignment for agentic RL.
+        highlights:
+          - https://github.com/Zenghuang-Fu/Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL
+      - name: DMTrack
+        summary: Reference implementation of the DMTrack UAV multi-object tracker.
+        highlights:
+          - https://github.com/Zenghuang-Fu/DMTrack
+    Research Interests:
+      - label: Multimodal
+        details: "Multimodal large models, MLLM reasoning, vision-language models"
+      - label: Agents
+        details: "Agentic reinforcement learning, long-horizon credit assignment, memory and planning"
+      - label: Perception
+        details: "Video understanding, object detection, multi-object tracking"
     Skills:
       - label: Programming
         details: "Python, PyTorch, C++"
-      - label: Research
-        details: "Reinforcement Learning, Self-play, LLM Agents"
     Languages:
       - label: Chinese
         details: Native speaker
       - label: English
-        details: Fluent
-    Interests:
-      - label: Research Interests
-        details: "Self-evolving agents, Skill evolution, Self-play, Reinforcement learning"
+        details: Professional working proficiency

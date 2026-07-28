@@ -4,9 +4,9 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
+cv_pdf: /assets/rendercv/rendercv_output/Zenghuang_Fu_CV.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Curriculum vitae. The PDF above is rendered automatically from '_data/cv.yml' by RenderCV.
 toc:
   sidebar: left
 ---

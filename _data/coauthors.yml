@@ -1,34 +1,41 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Maps a coauthor's last name to their possible first-name spellings, so that
+# author lists in the bibliography can link to their homepages.
+# The `url` key is optional -- names without one are rendered as plain text.
+"han":
+  - firstname: ["Xiaofeng", "X."]
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"meng":
+  - firstname: ["Weiliang", "W."]
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"jia":
+  - firstname: ["Mingda", "M."]
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"chen":
+  - firstname: ["Shunpeng", "S."]
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"wang":
+  - firstname: ["Changwei", "C."]
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"feng":
+  - firstname: ["Zhe", "Z."]
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"zeng":
+  - firstname: ["Qi", "Q."]
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"ai":
+  - firstname: ["Qiuyuan", "Q."]
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"yang":
+  - firstname: ["Jinming", "J."]
+
+"xu":
+  - firstname: ["Rongtao", "R."]
+  - firstname: ["Shibiao", "S."]
+  - firstname: ["Shengpeng"]
+
+"zhang":
+  - firstname: ["Xiaopeng", "X."]
+  - firstname: ["Jiguang", "J."]
+  - firstname: ["Yifan", "Y."]
+  - firstname: ["Muyang", "M."]
+  - firstname: ["Yu"]

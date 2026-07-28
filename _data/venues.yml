@@ -1,9 +1,23 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"AAAI":
+  url: https://aaai.org/conference/aaai/
+  color: "#1d3f8f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ACL":
+  url: https://www.aclweb.org/portal/
+  color: "#c0392b"
 
-"Vision":
-  color: "#009f36"
+"InfFus":
+  url: https://www.sciencedirect.com/journal/information-fusion
+  color: "#c05621"
+
+"ESWA":
+  url: https://www.sciencedirect.com/journal/expert-systems-with-applications
+  color: "#8a5a1b"
+
+"TVC":
+  url: https://link.springer.com/journal/371
+  color: "#0b7261"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#7a1c1c"
