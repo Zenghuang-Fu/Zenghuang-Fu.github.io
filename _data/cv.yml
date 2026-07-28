@@ -4,14 +4,11 @@ cv:
     email: your_email@example.com
     location: China
     image: ""
-    summary: PhD student working on machine learning, with research interests in self-play and skill evolution for self-evolving
-  agents.
+    summary: PhD student working on machine learning, with research interests in self-play and skill evolution for self-evolving agents.
 
     social_networks:
       - network: GitHub
         username: Zenghuang-Fu
-      # - network: LinkedIn
-      #   username: your_linkedin_id
 
     sections:
       Education:
