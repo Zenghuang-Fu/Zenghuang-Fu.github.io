@@ -29,9 +29,9 @@ latest_posts:
 
 I am a master's student at the [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/) (CASIA), advised by [Prof. Weiliang Meng](https://people.ucas.ac.cn/~mengweiliang) and [Prof. Xiaopeng Zhang](https://scholar.google.com/citations?user=SMkmw3MAAAAJ&hl=en).
 
-My research centres on **multimodal large models** and **agentic reinforcement learning** — in particular how agents can plan, remember and improve over long horizons. I also work on **video understanding** and **reasoning in multimodal LLMs**, and I have a background in visual perception: object detection and multi-object tracking under difficult real-world conditions.
+My research interests are **long-horizon credit assignment for agentic reinforcement learning**, **agentic search**, **self-evolving agents** and **AutoResearch**. I have a background in agentic memory, agentic RL and long-video understanding with multimodal LLMs.
 
-Recent work includes [DMTrack](https://arxiv.org/abs/2510.17860), a deformable state-space tracker for UAV multi-object tracking, and HiPA-DETR, a weather-aware detector that generalises across construction-site domains. I have also contributed to work published at AAAI 2026, ACL 2026, _Information Fusion_, _Expert Systems with Applications_ and _The Visual Computer_. A full list is on my [publications](/publications/) page.
+I have contributed to work published at AAAI 2026, ACL 2026, _Information Fusion_, _Expert Systems with Applications_ and _The Visual Computer_. A full list is on my [publications](/publications/) page.
 
 I maintain [Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL](https://github.com/Zenghuang-Fu/Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL), a reading list on long-horizon credit assignment for agentic RL.
 

@@ -15,7 +15,7 @@ cv:
     # fall through to the generic renderer, which understands `bullet` and
     # `label`/`details`.
     Summary:
-      - bullet: Master's student at the Institute of Automation, Chinese Academy of Sciences, advised by Weiliang Meng and Xiaopeng Zhang. My research centres on multimodal large models and agentic reinforcement learning, with a focus on long-horizon planning and memory; I also work on video understanding, MLLM reasoning, object detection and multi-object tracking. I am actively looking for PhD positions.
+      - bullet: Master's student at the Institute of Automation, Chinese Academy of Sciences, advised by Weiliang Meng and Xiaopeng Zhang. My research interests are long-horizon credit assignment for agentic reinforcement learning, agentic search, self-evolving agents and AutoResearch, with a background in agentic memory, agentic RL and long-video understanding with multimodal LLMs. I am actively looking for PhD positions.
     Education:
       # Months are the standard Chinese academic calendar (Sept intake, June
       # graduation) -- a bare "2024" would render as "Jan 2024" in the PDF.
@@ -139,12 +139,12 @@ cv:
         highlights:
           - https://github.com/Zenghuang-Fu/DMTrack
     Research Interests:
-      - label: Multimodal
-        details: "Multimodal large models, MLLM reasoning, vision-language models"
+      - label: Agentic RL
+        details: "Long-horizon credit assignment, agentic reinforcement learning"
       - label: Agents
-        details: "Agentic reinforcement learning, long-horizon credit assignment, memory and planning"
-      - label: Perception
-        details: "Video understanding, object detection, multi-object tracking"
+        details: "Agentic search, self-evolving agents, AutoResearch, agentic memory"
+      - label: Multimodal
+        details: "Long-video understanding with multimodal LLMs, MLLM reasoning"
     Technical Skills:
       - label: Programming
         details: "Python, PyTorch, C++"
