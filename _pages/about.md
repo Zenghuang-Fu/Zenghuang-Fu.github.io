@@ -35,4 +35,6 @@ Recent work includes [DMTrack](https://arxiv.org/abs/2510.17860), a deformable s
 
 I maintain [Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL](https://github.com/Zenghuang-Fu/Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL), a reading list on long-horizon credit assignment for agentic RL.
 
+As an undergraduate I was a **National First Prize** winner in the China Undergraduate Mathematical Contest in Modeling (CUMCM), a **Meritorious Winner** in the Mathematical Contest in Modeling (MCM/ICM), and won a **Fujian Provincial First Prize** in the national Zhengda Cup market survey and analysis competition — all in 2022. The full list is on my [CV](/cv/).
+
 **I am actively looking for PhD positions.** If my interests line up with your group's, I would be glad to hear from you — please feel free to reach out by email.

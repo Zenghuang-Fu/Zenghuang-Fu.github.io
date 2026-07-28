@@ -29,11 +29,8 @@ cv:
           - Advised by [Weiliang Meng](https://people.ucas.ac.cn/~mengweiliang) and [Xiaopeng Zhang](https://scholar.google.com/citations?user=SMkmw3MAAAAJ&hl=en).
     Awards and Honors:
       # All three were won as an undergraduate.
-      # TODO: MCM/ICM does not award a "First Prize" -- its official tiers are
-      # Outstanding Winner, Finalist, Meritorious Winner, Honorable Mention and
-      # Successful Participant. Replace with the tier on the certificate.
       - bullet: "**National First Prize**, China Undergraduate Mathematical Contest in Modeling (CUMCM), 2022"
-      - bullet: "**First Prize**, Mathematical Contest in Modeling (MCM/ICM), 2022"
+      - bullet: "**Meritorious Winner**, Mathematical Contest in Modeling (MCM/ICM), 2022"
       - bullet: "**Provincial First Prize (Fujian)**, National Undergraduate Market Survey and Analysis Competition (Zhengda Cup), 2022"
     Publications:
       - title: "Robust detection in complex construction sites: HiPA-DETR with weather-aware and cross-domain generalization"
