@@ -1,64 +1,54 @@
 cv:
-    name: Zenghuang Fu
-    label: PhD Student
-    email: your_email@example.com
-    location: China
-    image: ""
-    summary: PhD student working on machine learning, with research interests in self-play and skill evolution for self-evolving agents.
-
-    social_networks:
-      - network: GitHub
-        username: Zenghuang-Fu
-
-    sections:
-      Education:
-        - institution: Your University
-          location: Your City, Country
-          area: Computer Science
-          studyType: PhD
-          start_date: 2024
-          end_date: present
-          highlights:
-            - Research on self-play and skill evolution.
-
-        - institution: Your Undergraduate University
-          location: Your City, Country
-          area: Computer Science
-          studyType: BSc
-          start_date: 2020
-          end_date: 2024
-
-      Experience:
-        - company: Your Lab / Group
-          position: Research Assistant
-          location: Your City, Country
-          start_date: 2023
-          end_date: present
-          highlights:
-            - Describe what you worked on here.
-
-      Publications:
-        - title: Your paper title here
-          authors:
-            - Zenghuang Fu
-          publisher: Venue / arXiv
-          releaseDate: 2025
-          summary: One-line summary of the paper.
-
-      Skills:
-        - name: Programming
-          keywords: "Python, PyTorch, C++"
-
-        - name: Research
-          keywords: "Reinforcement Learning, Self-play, LLM Agents"
-
-      Languages:
-        - name: Chinese
-          summary: "Native speaker"
-
-        - name: English
-          summary: "Fluent"
-
-      Interests:
-        - name: Research Interests
-          keywords: "Self-evolving agents, Skill evolution, Self-play, Reinforcement learning"
+  name: Zenghuang Fu
+  headline: PhD Student
+  email: your_email@example.com
+  location: China
+  social_networks:
+    - network: GitHub
+      username: Zenghuang-Fu
+  sections:
+    Summary:
+      - PhD student working on machine learning, with research interests in self-play and skill evolution for self-evolving agents.
+    Education:
+      - institution: Your University
+        area: Computer Science
+        degree: PhD
+        location: Your City, Country
+        start_date: "2024-09"
+        end_date: present
+        highlights:
+          - Research on self-play and skill evolution.
+      - institution: Your Undergraduate University
+        area: Computer Science
+        degree: BSc
+        location: Your City, Country
+        start_date: "2020-09"
+        end_date: "2024-06"
+    Experience:
+      - company: Your Lab / Group
+        position: Research Assistant
+        location: Your City, Country
+        start_date: "2023-09"
+        end_date: present
+        highlights:
+          - Describe what you worked on here.
+    Publications:
+      - title: Your paper title here
+        authors:
+          - Zenghuang Fu
+        journal: Venue / arXiv
+        date: "2025"
+        summary: One-line summary of the paper.
+    Skills:
+      - label: Programming
+        details: "Python, PyTorch, C++"
+      - label: Research
+        details: "Reinforcement Learning, Self-play, LLM Agents"
+    Languages:
+      - label: Chinese
+        details: Native speaker
+      - label: English
+        details: Fluent
+    Interests:
+      - label: Research Interests
+        details: "Self-evolving agents, Skill evolution, Self-play, Reinforcement learning"
