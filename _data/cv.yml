@@ -35,40 +35,40 @@ cv:
     Publications:
       - title: "Robust detection in complex construction sites: HiPA-DETR with weather-aware and cross-domain generalization"
         authors:
-          - Zenghuang Fu
-          - Jinming Yang
+          - Zenghuang Fu∗
+          - Jinming Yang∗
           - Xiaofeng Han
           - Zhe Feng
           - Muyang Zhang
           - Changwei Wang
-          - Weiliang Meng
+          - Weiliang Meng†
           - Jiguang Zhang
-          - Xiaopeng Zhang
+          - Xiaopeng Zhang†
         journal: The Visual Computer
         date: "2026-05"
       - title: "Cognitive Scaffold: From Fluid Context to Crystallized Memory for Long-Horizon DeepResearch Agents"
         authors:
-          - Qiuyuan Ai
-          - Zenghuang Fu
-          - Zhaoyang Li
+          - Qiuyuan Ai∗
+          - Zenghuang Fu∗
+          - Zhaoyang Li∗
           - Ping Jiang
           - Haoyu Wu
-          - Jie Song
-          - Guannan He
+          - Jie Song†
+          - Guannan He†
         journal: ACL (Main)
         date: "2026-07"
       - title: "WM-DETR: Dual-Branch Wavelet-Mamba and Sparse Attention for Robust Underwater Object Detection"
         authors:
-          - Xiaofeng Han
-          - Shunpeng Chen
+          - Xiaofeng Han∗
+          - Shunpeng Chen∗
           - Zenghuang Fu
           - Longzhao Huang
           - Shengpeng Xu
           - Jinming Yang
           - Yixian Kong
           - Changwei Wang
-          - Weiliang Meng
-          - Xiaopeng Zhang
+          - Weiliang Meng†
+          - Xiaopeng Zhang†
         journal: Expert Systems with Applications
         date: "2026-06"
       - title: Explicit temporal-semantic modeling for dense video captioning via context-aware cross-modal interaction
@@ -82,53 +82,61 @@ cv:
           - Ju Xin
           - Rongtao Xu
           - Jiguang Zhang
-          - Xiaopeng Zhang
+          - Xiaopeng Zhang†
         journal: AAAI
         date: "2026-03"
       - title: "HMR-1: Hierarchical Massage Robot with Vision-Language-Model for Embodied Healthcare"
         authors:
-          - Rongtao Xu
-          - Mingming Yu
-          - Xiaofeng Han
+          - Rongtao Xu∗
+          - Mingming Yu∗
+          - Xiaofeng Han∗
           - Yu Zhang
           - Kaiyi Hu
           - Zhe Feng
           - Zenghuang Fu
           - Changwei Wang
-          - Weiliang Meng
-          - Xiaopeng Zhang
+          - Weiliang Meng†
+          - Xiaopeng Zhang†
         journal: arXiv preprint arXiv:2603.08817
         date: "2026-03"
         url: https://arxiv.org/abs/2603.08817
       - title: "DMTrack: Deformable State-Space Modeling for UAV Multi-Object Tracking with Kalman Fusion and Uncertainty-Aware Association"
         authors:
-          - Zenghuang Fu
-          - Xiaofeng Han
+          - Zenghuang Fu∗
+          - Xiaofeng Han∗
           - Mingda Jia
           - Qi Zeng
           - Muyang Zhang
           - Changwei Wang
-          - Weiliang Meng
-          - Xiaopeng Zhang
+          - Weiliang Meng†
+          - Xiaopeng Zhang†
         journal: arXiv preprint arXiv:2510.17860
         date: "2025-10"
         url: https://arxiv.org/abs/2510.17860
       - title: "Multimodal fusion and vision-language models: A survey for robot vision"
         authors:
-          - Xiaofeng Han
-          - Shunpeng Chen
+          - Xiaofeng Han∗
+          - Shunpeng Chen∗
           - Zenghuang Fu
           - Zhe Feng
           - Lue Fan
           - Dong An
           - Changwei Wang
           - Li Guo
-          - Weiliang Meng
+          - Weiliang Meng†
           - Xiaopeng Zhang
-          - Rongtao Xu
+          - Rongtao Xu†
           - Shibiao Xu
         journal: Information Fusion
         date: "2025-08"
+    Author Notes:
+      # Legend for the ∗ / † markers used in the Publications list above.
+      # This is a section rather than design.yaml's `top_note` because RenderCV
+      # ignores templates.top_note when design.yaml is loaded indirectly through
+      # settings.yaml, which is how the render-cv workflow invokes it.
+      # Do not rename to "Notes on Publications" etc. without checking
+      # al_folio_cv's special-cased section titles.
+      - bullet: "∗ denotes equal contribution (co-first author); † denotes corresponding author."
     Projects:
       - name: Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL
         summary: A curated reading list of papers, methods and resources on long-horizon credit assignment for agentic RL.
