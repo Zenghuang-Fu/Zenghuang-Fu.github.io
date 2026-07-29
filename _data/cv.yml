@@ -130,13 +130,16 @@ cv:
         journal: Information Fusion
         date: "2025-08"
     Author Notes:
-      # Legend for the ∗ / † markers used in the Publications list above.
+      # Legend for the ∗ / † markers in the author lists.
       # This is a section rather than design.yaml's `top_note` because RenderCV
       # ignores templates.top_note when design.yaml is loaded indirectly through
       # settings.yaml, which is how the render-cv workflow invokes it.
-      # Do not rename to "Notes on Publications" etc. without checking
-      # al_folio_cv's special-cased section titles.
-      - bullet: "∗ denotes equal contribution (co-first author); † denotes corresponding author."
+      # The link is absolute so it also works from the PDF. It matters here
+      # because al_folio_cv's publications.liquid renders title/date/url only --
+      # it ignores `authors`, so the /cv/ page shows no author lists at all.
+      # Do not rename this section to "Notes on Publications" etc. without
+      # checking al_folio_cv's special-cased section titles.
+      - bullet: "∗ denotes equal contribution (co-first author); † denotes corresponding author. Full author lists are on the [publications page](https://zenghuang-fu.github.io/publications/)."
     Projects:
       - name: Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL
         summary: A curated reading list of papers, methods and resources on long-horizon credit assignment for agentic RL.
