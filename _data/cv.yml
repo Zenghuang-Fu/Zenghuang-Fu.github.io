@@ -46,6 +46,8 @@ cv:
           - Xiaopeng Zhang†
         journal: The Visual Computer
         date: "2026-05"
+        doi: 10.1007/s00371-026-04486-y
+        url: https://doi.org/10.1007/s00371-026-04486-y
       - title: "Cognitive Scaffold: From Fluid Context to Crystallized Memory for Long-Horizon DeepResearch Agents"
         authors:
           - Qiuyuan Ai∗
@@ -57,6 +59,8 @@ cv:
           - Guannan He†
         journal: ACL (Main)
         date: "2026-07"
+        doi: 10.18653/v1/2026.acl-long.1170
+        url: https://doi.org/10.18653/v1/2026.acl-long.1170
       - title: "WM-DETR: Dual-Branch Wavelet-Mamba and Sparse Attention for Robust Underwater Object Detection"
         authors:
           - Xiaofeng Han∗
@@ -71,6 +75,8 @@ cv:
           - Xiaopeng Zhang†
         journal: Expert Systems with Applications
         date: "2026-06"
+        doi: 10.1016/j.eswa.2026.133148
+        url: https://doi.org/10.1016/j.eswa.2026.133148
       - title: Explicit temporal-semantic modeling for dense video captioning via context-aware cross-modal interaction
         authors:
           - Mingda Jia
@@ -85,6 +91,8 @@ cv:
           - Xiaopeng Zhang†
         journal: AAAI
         date: "2026-03"
+        doi: 10.1609/aaai.v40i7.37450
+        url: https://doi.org/10.1609/aaai.v40i7.37450
       - title: "HMR-1: Hierarchical Massage Robot with Vision-Language-Model for Embodied Healthcare"
         authors:
           - Rongtao Xu∗
@@ -129,6 +137,8 @@ cv:
           - Shibiao Xu
         journal: Information Fusion
         date: "2025-08"
+        doi: 10.1016/j.inffus.2025.103652
+        url: https://doi.org/10.1016/j.inffus.2025.103652
     Author Notes:
       # Legend for the ∗ / † markers in the author lists.
       # This is a section rather than design.yaml's `top_note` because RenderCV
