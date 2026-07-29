@@ -1,12 +1,13 @@
-# Maps a coauthor's last name to their possible first-name spellings, so that
-# author lists in the bibliography can link to their homepages.
-# The `url` key is optional -- names without one are rendered as plain text.
+# Maps a coauthor's last name to their possible first-name spellings.
+# No `url` keys here on purpose: author lists in the bibliography are meant to
+# stay plain text. The advisors' homepages are linked from the about page and
+# the CV instead. Adding a `url` to an entry would turn that name into a link
+# wherever it appears within the first `max_author_limit` authors.
 "han":
   - firstname: ["Xiaofeng", "X."]
 
 "meng":
   - firstname: ["Weiliang", "W."]
-    url: https://people.ucas.ac.cn/~mengweiliang
 
 "jia":
   - firstname: ["Mingda", "M."]
@@ -36,7 +37,6 @@
 
 "zhang":
   - firstname: ["Xiaopeng", "X."]
-    url: https://scholar.google.com/citations?user=SMkmw3MAAAAJ&hl=en
   - firstname: ["Jiguang", "J."]
   - firstname: ["Yifan", "Y."]
   - firstname: ["Muyang", "M."]
