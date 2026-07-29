@@ -5,6 +5,16 @@ cv_pdf: /assets/rendercv/rendercv_output/Zenghuang_Fu_CV.pdf # path to your CV P
 email: fuzenghuang24@ia.ac.cn # your email address
 github_username: Zenghuang-Fu # your GitHub username
 scholar_userid: eykCiM8AAAAJ # your Google Scholar ID
+# Xiaohongshu is not one of jekyll-socials' built-in networks, so it goes
+# through the custom-entry path, which needs logo + title + url.
+# The logo needs a leading slash: the plugin builds the src as baseurl + path.
+# The fill is baked into the SVG on purpose -- it is loaded through
+# <svg><image xlink:href>, which does not inherit the page's CSS, so an
+# uncoloured icon would render solid black and vanish in dark mode.
+xiaohongshu:
+  logo: /assets/img/xiaohongshu.svg
+  title: Xiaohongshu
+  url: https://www.xiaohongshu.com/user/profile/65eda1de000000000500f2f5
 rss_icon: true # comment this line to hide the RSS icon
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
