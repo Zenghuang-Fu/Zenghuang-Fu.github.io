@@ -38,18 +38,3 @@ I maintain [Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL](https://githu
 As an undergraduate I was a **National First Prize** winner in the China Undergraduate Mathematical Contest in Modeling (CUMCM), a **Meritorious Winner** in the Mathematical Contest in Modeling (MCM/ICM), and won a **Fujian Provincial First Prize** in the national Zhengda Cup market survey and analysis competition — all in 2022. The full list is on my [CV](/cv/).
 
 **I am actively looking for PhD positions.** If my interests line up with your group's, I would be glad to hear from you — please feel free to reach out by email.
-
-<!-- Visit counter. GitHub Pages serves static files, so the count has to come from a
-     third party; hits.sh needs no account and sets no cookies — fetching the SVG *is*
-     the increment. The tally is keyed on the badge URL, so this one badge counts views
-     of this page. Do not add loading="lazy": the badge sits below the fold, and a lazy
-     fetch would only count readers who scroll. Moving this block into _config.yml's
-     footer_text would instead show it on every page and count the whole site. -->
-
-<p style="margin-top: 2.5rem; text-align: center;">
-  <img
-    src="https://hits.sh/zenghuang-fu.github.io.svg?style=flat-square&amp;label=visits&amp;color=0d9488&amp;labelColor=4b5563"
-    alt="Number of visits to this homepage"
-    loading="eager"
-  />
-</p>
