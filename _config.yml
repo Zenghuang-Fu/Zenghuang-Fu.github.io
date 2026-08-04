@@ -6,18 +6,22 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Zenghuang
 middle_name: ""
 last_name: Fu
+# The <img> is the visit counter. It sits in contact_note because that block renders
+# directly under the social icons -- the last thing on the homepage -- and the icon row
+# itself is not reachable from config: it comes from jekyll-socials' {% social_links %},
+# whose custom entries are emitted as <svg><image> and sized to 3.5x4rem by the theme,
+# which would squash a wide badge. GitHub Pages serves static files, so the count has to
+# come from a third party; hits.sh needs no account and sets no cookies -- the badge's
+# own fetch is the increment. contact_note renders only in the about layout, so this
+# counts homepage views.
 contact_note: >
+  <img src="https://hits.sh/zenghuang-fu.github.io.svg?style=flat-square&amp;label=visits&amp;color=0d9488&amp;labelColor=4b5563" alt="Number of visits to this homepage" loading="eager" style="display: block; margin: 0 auto 0.6rem;" />
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal homepage of Zenghuang Fu, a master's student at the Institute of Automation, Chinese Academy of Sciences, working on long-horizon credit assignment for agentic reinforcement learning, agentic search, self-evolving agents and AutoResearch. Actively looking for PhD positions.
-# The visit counter is the <img> below. GitHub Pages serves static files, so the count
-# has to come from a third party; hits.sh needs no account and sets no cookies -- the
-# badge's own fetch is the increment. The tally is keyed on the badge URL, and the footer
-# renders on every page, so this is one site-wide count rather than a per-page one.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  <img src="https://hits.sh/zenghuang-fu.github.io.svg?style=flat-square&amp;label=visits&amp;color=0d9488&amp;labelColor=4b5563" alt="Number of visits to this site" loading="eager" style="vertical-align: text-bottom; margin-left: 0.35rem;" />
 keywords: Zenghuang Fu, agentic reinforcement learning, long-horizon credit assignment, agentic search, self-evolving agents, AutoResearch, agentic memory, multimodal large language models, long-video understanding, Institute of Automation, Chinese Academy of Sciences # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
