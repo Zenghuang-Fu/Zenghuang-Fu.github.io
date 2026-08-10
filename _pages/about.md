@@ -33,7 +33,7 @@ My research interests are **long-horizon credit assignment for agentic reinforce
 
 I have contributed to work published at AAAI 2026, ACL 2026, _Information Fusion_, _Expert Systems with Applications_ and _The Visual Computer_. A full list is on my [publications](/publications/) page.
 
-I maintain [Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL](https://github.com/Zenghuang-Fu/Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL), a reading list on long-horizon credit assignment for agentic RL.
+I maintain two reading lists: [Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL](https://github.com/Zenghuang-Fu/Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL), on long-horizon credit assignment for agentic RL, and [Awesome-Agentic-OPD](https://github.com/Zenghuang-Fu/Awesome-Agentic-OPD), on on-policy distillation and self-distillation for multi-turn agents.
 
 As an undergraduate I was a **National First Prize** winner in the China Undergraduate Mathematical Contest in Modeling (CUMCM), a **Meritorious Winner** in the Mathematical Contest in Modeling (MCM/ICM), and won a **Fujian Provincial First Prize** in the national Zhengda Cup market survey and analysis competition — all in 2022. The full list is on my [CV](/cv/).
 
