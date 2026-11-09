@@ -1,0 +1,55 @@
+metadata:
+  last_updated: '2026-11-09'
+papers:
+  eykCiM8AAAAJ:2osOgNQ5qMEC:
+    citations: 12
+    title: Explicit temporal-semantic modeling for dense video captioning via context-aware cross-modal interaction
+    year: '2026'
+  eykCiM8AAAAJ:9yKSN-GCB0IC:
+    citations: 4
+    title: 'HMR-1: Hierarchical Massage Robot with Vision-Language-Model for Embodied Healthcare'
+    year: '2026'
+  eykCiM8AAAAJ:IjCSPb-OGe4C:
+    citations: 7
+    title: 'Cognitive Scaffold: From Fluid Context to Crystallized Memory for Long-Horizon DeepResearch Agents'
+    year: '2026'
+  eykCiM8AAAAJ:Tyk-4Ss8FVUC:
+    citations: 5
+    title: 'Self-Play Meets Skill Evolution: Self-Evolving Search Agents that Pose, Solve, and Remember'
+    year: '2026'
+  eykCiM8AAAAJ:UeHWp8X0CEIC:
+    citations: 1
+    title: 'WM-DETR: Dual-Branch Wavelet-Mamba and Sparse Attention for Robust Underwater Object Detection'
+    year: '2026'
+  eykCiM8AAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: 'SIPO: Selective-Inference Policy Optimization for Tree-Structured Agentic RL'
+    year: '2026'
+  eykCiM8AAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: 'UniOPSD: Unifying Outcome and Hindsight Feedback for Agentic Reinforcement Learning'
+    year: '2026'
+  eykCiM8AAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: Open-Vocabulary Multi-label Recognition via Cross-Modal Transfer Learning with LLMs
+    year: '2026'
+  eykCiM8AAAAJ:_FxGoFyzp5QC:
+    citations: 0
+    title: 'Recursive Self-Improvement in Physical AI: Mechanisms, Evidence, and Evaluation'
+    year: '2026'
+  eykCiM8AAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: 'Robust detection in complex construction sites: HiPA-DETR with weather-aware and cross-domain generalization'
+    year: '2026'
+  eykCiM8AAAAJ:u-x6o8ySG0sC:
+    citations: 173
+    title: 'Multimodal fusion and vision-language models: A survey for robot vision'
+    year: '2025'
+  eykCiM8AAAAJ:u5HHmVD_uO8C:
+    citations: 4
+    title: 'DMTrack: Deformable State-Space Modeling for UAV Multi-Object Tracking with Kalman Fusion and Uncertainty-Aware Association'
+    year: '2025'
+  eykCiM8AAAAJ:zYLM7Y9cAGgC:
+    citations: 2
+    title: 'CoEvoKG: Co-Evolving Knowledge Graphs with Self-Evolving Search Agents'
+    year: '2026'
