@@ -1486,7 +1486,7 @@ For more API details, see [Vanilla Cookie Consent documentation](https://cookiec
 ## Setting up a Personal Access Token (PAT) for Google Scholar Citation Updates
 
 > [!TIP]
-> After setting up al-folio you may want to run `python3 bin/update_citations.py` to fill the `_data/citations.yml` file with your Google Scholar citation counts.
+> Install `requirements-citations.txt` in a separate Python environment, then run `python3 bin/update_scholar_citations.py` to fill `_data/citations.yml` with your Google Scholar citation counts. The citation updater pins the legacy BibTeX parser API required by `scholarly`; do not combine this environment with the CV-rendering dependencies.
 
 This project includes an automated workflow to update the citation counts for your publications using Google Scholar.
 The workflow commits changes to `_data/citations.yml` directly to the `main` branch.
@@ -1496,7 +1496,7 @@ In order to deploy the changes from `main`, you can manually trigger the `deploy
 
 > [!TIP]
 > To ensure that these commits can trigger further GitHub Actions workflows (such as site rebuilds), you can use a Personal Access Token (PAT) instead of the default GitHub Actions token.
-> If you have set up a PAT, citation updates will trigger further workflows (such as site rebuilds) after committing changes. In order to run the action with a PAT, you need to uncomment the following lines from the workflow file (`update-citations.yml`):
+> If you have set up a PAT, citation updates will trigger further workflows (such as site rebuilds) after committing changes. To use a PAT, add the following options to the checkout step in `update-citations.yml`:
 >
 > ```yaml
 > with:

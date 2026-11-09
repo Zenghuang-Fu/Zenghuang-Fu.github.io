@@ -2,6 +2,7 @@
 
 import os
 import sys
+import tempfile
 import yaml
 from datetime import datetime
 from scholarly import scholarly
@@ -32,23 +33,27 @@ def load_scholar_user_id() -> str:
         sys.exit(1)
 
 
-SCHOLAR_USER_ID: str = load_scholar_user_id()
 OUTPUT_FILE: str = "_data/citations.yml"
 
 
-def get_scholar_citations() -> None:
+def get_scholar_citations(scholar_user_id=None) -> None:
     """Fetch and update Google Scholar citation data."""
-    print(f"Fetching citations for Google Scholar ID: {SCHOLAR_USER_ID}")
+    scholar_user_id = scholar_user_id or load_scholar_user_id()
+    print(f"Fetching citations for Google Scholar ID: {scholar_user_id}")
     today = datetime.now().strftime("%Y-%m-%d")
 
+    # A first run has no previous file. Initialize this on all read paths.
+    existing_data = None
     # Check if the output file was already updated today
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, "r") as f:
                 existing_data = yaml.safe_load(f)
+            if not isinstance(existing_data, dict):
+                existing_data = None
             if (
                 existing_data
-                and "metadata" in existing_data
+                and isinstance(existing_data.get("metadata"), dict)
                 and "last_updated" in existing_data["metadata"]
             ):
                 print(f"Last updated on: {existing_data['metadata']['last_updated']}")
@@ -65,22 +70,22 @@ def get_scholar_citations() -> None:
     scholarly.set_timeout(15)
     scholarly.set_retries(3)
     try:
-        author = scholarly.search_author_id(SCHOLAR_USER_ID)
-        author_data = scholarly.fill(author)
+        author = scholarly.search_author_id(scholar_user_id)
+        author_data = scholarly.fill(author, sections=["publications"])
     except Exception as e:
         print(
-            f"Error fetching author data from Google Scholar for user ID '{SCHOLAR_USER_ID}': {e}. Please check your internet connection and Scholar user ID."
+            f"Error fetching author data from Google Scholar for user ID '{scholar_user_id}': {e}. Please check your internet connection and Scholar user ID."
         )
         sys.exit(1)
 
     if not author_data:
         print(
-            f"Could not fetch author data for user ID '{SCHOLAR_USER_ID}'. Please verify the Scholar user ID and try again."
+            f"Could not fetch author data for user ID '{scholar_user_id}'. Please verify the Scholar user ID and try again."
         )
         sys.exit(1)
 
     if "publications" not in author_data:
-        print(f"No publications found in author data for user ID '{SCHOLAR_USER_ID}'.")
+        print(f"No publications found in author data for user ID '{scholar_user_id}'.")
         sys.exit(1)
 
     for pub in author_data["publications"]:
@@ -108,20 +113,35 @@ def get_scholar_citations() -> None:
                 f"Error processing publication '{pub.get('bib', {}).get('title', 'Unknown')}': {e}. This publication will be skipped."
             )
 
+    if not citation_data["papers"]:
+        print("No valid publication data was returned; preserving existing citations.")
+        sys.exit(1)
+
     # Compare new data with existing data
     if existing_data and existing_data.get("papers") == citation_data["papers"]:
         print("No changes in citation data. Skipping file update.")
         return
 
+    temporary_file = None
     try:
-        with open(OUTPUT_FILE, "w") as f:
+        output_directory = os.path.dirname(os.path.abspath(OUTPUT_FILE))
+        os.makedirs(output_directory, exist_ok=True)
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=output_directory, delete=False
+        ) as f:
+            temporary_file = f.name
             yaml.dump(citation_data, f, width=1000, sort_keys=True)
+        os.replace(temporary_file, OUTPUT_FILE)
+        temporary_file = None
         print(f"Citation data saved to {OUTPUT_FILE}")
     except Exception as e:
         print(
             f"Error writing citation data to {OUTPUT_FILE}: {e}. Please check file permissions and disk space."
         )
         sys.exit(1)
+    finally:
+        if temporary_file and os.path.exists(temporary_file):
+            os.unlink(temporary_file)
 
 
 if __name__ == "__main__":
