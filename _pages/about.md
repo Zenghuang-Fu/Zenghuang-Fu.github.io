@@ -1,30 +1,8 @@
 ---
-layout: about
+layout: academic
 title: about
 permalink: /
-subtitle: MSc student at the <a href="http://english.ia.cas.cn/">Institute of Automation, Chinese Academy of Sciences</a>, advised by <a href="https://people.ucas.ac.cn/~mengweiliang">Weiliang Meng</a> and <a href="https://scholar.google.com/citations?user=SMkmw3MAAAAJ&amp;hl=en">Xiaopeng Zhang</a>.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Institute of Automation</p>
-    <p>Chinese Academy of Sciences</p>
-    <p>Beijing, China</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+home: true
 ---
 
 I am a master's student at the [Institute of Automation, Chinese Academy of Sciences](http://english.ia.cas.cn/) (CASIA), advised by [Prof. Weiliang Meng](https://people.ucas.ac.cn/~mengweiliang) and [Prof. Xiaopeng Zhang](https://scholar.google.com/citations?user=SMkmw3MAAAAJ&hl=en).
@@ -32,11 +10,3 @@ I am a master's student at the [Institute of Automation, Chinese Academy of Scie
 My research interests are **long-horizon credit assignment for agentic reinforcement learning**, **agentic search**, **self-evolving agents** and **AutoResearch**. I have a background in agentic memory, agentic RL and long-video understanding with multimodal LLMs.
 
 I have contributed to work published at AAAI 2026, ACL 2026, _Information Fusion_, _Expert Systems with Applications_ and _The Visual Computer_. A full list is on my [publications](/publications/) page.
-
-I maintain two reading lists: [Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL](https://github.com/Zenghuang-Fu/Awesome-Long-Horizon-Credit-Assignment-for-Agentic-RL), on long-horizon credit assignment for agentic RL, and [Awesome-Agentic-OPD](https://github.com/Zenghuang-Fu/Awesome-Agentic-OPD), on on-policy distillation and self-distillation for multi-turn agents.
-
-As an undergraduate I was a **National First Prize** winner in the China Undergraduate Mathematical Contest in Modeling (CUMCM), a **Meritorious Winner** in the Mathematical Contest in Modeling (MCM/ICM), and won a **Fujian Provincial First Prize** in the national Zhengda Cup market survey and analysis competition — all in 2022. The full list is on my [CV](/cv/).
-
-I serve as a reviewer for **AAAI**, **ACM Multimedia (MM)** and **ICLR**.
-
-**I am actively looking for PhD positions.** If my interests line up with your group's, I would be glad to hear from you — please feel free to reach out by email.

@@ -61,7 +61,20 @@ if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
 }
 
-for (const forbiddenPath of ["_includes", "_layouts", "_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
+// This personal site adds explicitly named layouts; they do not shadow gem files.
+// Keep rejecting any other starter-local runtime component.
+const siteTemplates = {
+  _layouts: ["academic.liquid", "academic-bib.liquid", "academic-cv.liquid"],
+  _includes: ["academic-home.liquid", "academic-nav.liquid", "academic-news.liquid", "academic-resources.liquid"],
+};
+for (const [directory, allowed] of Object.entries(siteTemplates)) {
+  if (!exists(directory)) continue;
+  for (const name of fs.readdirSync(path.join(root, directory))) {
+    if (!allowed.includes(name)) failures.push(`Unreviewed local runtime component: \`${directory}/${name}\`.`);
+  }
+}
+
+for (const forbiddenPath of ["_sass", "_scripts", "assets/tailwind", "tailwind.config.js", "assets/webfonts"]) {
   if (exists(forbiddenPath)) {
     failures.push(`Starter must not own core component path \`${forbiddenPath}\`; move ownership to the corresponding gem.`);
   }

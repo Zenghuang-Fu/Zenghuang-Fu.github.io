@@ -1,0 +1,43 @@
+---
+layout: academic
+---
+<div class="cv-content">
+  {% for section in site.data.cv.cv.sections %}
+    <section class="cv-section">
+      <h3>{{ section[0] }}</h3>
+      {% for item in section[1] %}
+        <div class="cv-item">
+          {% if item.bullet %}{{ item.bullet | markdownify }}{% endif %}
+          {% if item.institution %}
+            <h4>{{ item.institution }}</h4>
+            <p>{{ item.degree }} in {{ item.area }} · {{ item.start_date }} – {{ item.end_date }} (expected)</p>
+            <p class="muted">{{ item.location }}</p>
+          {% endif %}
+          {% if item.title %}
+            <h4>
+              {% if item.url -%}
+                <a href="{{ item.url }}">{{ item.title }}</a>
+              {%- else -%}
+                {{- item.title -}}
+              {%- endif %}
+            </h4>
+            <p class="authors">{{ item.authors | join: ', ' }}</p>
+            <p class="muted">{{ item.journal }} · {{ item.date }}</p>
+          {% endif %}
+          {% if item.name %}
+            <h4>{{ item.name }}</h4>
+            <p>{{ item.summary }}</p>
+          {% endif %}
+          {% if item.label %}
+            <p>
+              <strong>{{ item.label }}:</strong> {{ item.details }}
+            </p>
+          {% endif %}
+          {% for highlight in item.highlights -%}
+            {{- highlight | markdownify -}}
+          {%- endfor %}
+        </div>
+      {% endfor %}
+    </section>
+  {% endfor %}
+</div>

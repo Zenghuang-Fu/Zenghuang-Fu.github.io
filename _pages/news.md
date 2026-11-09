@@ -1,7 +1,6 @@
 ---
-layout: page
-title: news
+layout: academic
 permalink: /news/
+title: news
+academic_section: news
 ---
-
-{% include news.liquid %}

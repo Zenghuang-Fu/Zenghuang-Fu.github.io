@@ -1,0 +1,11 @@
+{% assign updates = site.news | sort: 'date' | reverse %}
+{% assign item_limit = include.limit | default: 1000 %}
+{% assign item_offset = include.offset | default: 0 %}
+<ol class="news-timeline">
+  {% for item in updates limit: item_limit offset: item_offset %}
+    <li>
+      <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: '%b %d, %Y' }}</time>
+      <div>{{ item.content | markdownify }}</div>
+    </li>
+  {% endfor %}
+</ol>

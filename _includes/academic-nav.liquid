@@ -1,0 +1,13 @@
+<a href="{{ '/' | relative_url }}#about">About</a>
+<a href="{{ '/' | relative_url }}#research">Research</a>
+<a href="{{ '/' | relative_url }}#news">News</a>
+<a href="{{ '/' | relative_url }}#publications">Publications</a>
+<a href="{{ '/' | relative_url }}#resources">Resources</a>
+<a href="{{ '/' | relative_url }}#service">Service</a>
+<a
+  href="{{ '/cv/' | relative_url }}"
+  {% if page.url == '/cv/' %}
+    aria-current="page"
+  {% endif %}
+  >CV</a
+>
